@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.jpg">
+    <title>TechTroveNepal||Suppourt</title>
+    <style>
+      
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #121010;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+    <button>
+        <a href="welcomepage.html" style="text-decoration:none; color:black;">Back</a>
+      </button>
+      
+      <section style="text-align:center; margin-top: 50px;">
+        <h1>TechTrove Support</h1>
+        <p>If you need any assistance, feel free to contact us.</p>
+      
+        <table style="width:100%; text-align:center; margin-top: 30px;">
+          <tr>
+            <td><strong>Email:</strong></td>
+            <td>support@techtrove.com</td>
+          </tr>
+          <tr>
+            <td><strong>Phone:</strong></td>
+            <td>+977-9800000000</td>
+          </tr>
+          <tr>
+            <td><strong>Address:</strong></td>
+            <td>Kathmandu, Nepal</td>
+          </tr>
+        </table>
+      
+        <h2 style="margin-top: 30px;">Send Us a Message</h2>
+        <form action="submit_support.html" method="POST">
+          <table style="margin: auto;">
+            <tr>
+              <td><label for="name">Name:</label></td>
+              <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+              <td><label for="message">Message:</label></td>
+              <td><textarea id="message" name="message" rows="4" required></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center;">
+                <button type="submit">Submit</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </section>
+    </body>
+    </html>
+    

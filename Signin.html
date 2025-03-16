@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TechTrove || Sign in</title>
+    <style>
+        * {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        table {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            width: 350px;
+            border-collapse: collapse;
+            background-color: rgb(114, 15, 15);
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        button {
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+            background-color: #e4405f;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            color: white;
+        }
+
+        button:hover {
+            background-color: #d13650;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .Instagram {
+            background-color: #e4405f;
+        }
+
+        .Instagram:hover {
+            background-color: orange;
+        }
+
+        .Facebook {
+            background-color: #1877f2;
+        }
+
+        .Facebook:hover {
+            background-color: #155dbb;
+        }
+
+        .WhatsApp {
+            background-color: #25d366;
+        }
+
+        .WhatsApp:hover {
+            background-color: #1da855;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h2>Sign In to TechTroveNepal</h2>
+
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td>Email ID:</td>
+                <td><input type="email" placeholder="Enter Email"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button>Sign In</button>
+                </td>
+            </tr>
+        </table>
+
+        <h3>Or Sign In With</h3>
+
+        <table class="social-buttons" cellpadding="5">
+            <tr>
+                <td><button class="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</button></td>
+            </tr>
+            <tr>
+                <td><button class="Facebook"><i class="fa-brands fa-facebook"></i> Facebook</button></td>
+            </tr>
+            <tr>
+                <td><button class="WhatsApp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</button></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
